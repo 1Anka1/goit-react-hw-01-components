@@ -39,6 +39,7 @@ Depending on the isOnline prop, the span.status background color should change.
 It is necessary to create a transaction history component in the personal account of the Internet Bank.
 
 The data for the list is available in JSON format in the transactions.json file. This is an array of objects, each object describes one transaction with the following properties:
+
   - id — unique transaction ID
   - type — transaction type
   - amount - transaction amount
