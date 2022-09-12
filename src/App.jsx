@@ -9,7 +9,7 @@ import transactions from "./data/transactions.json";
 import { Section } from './components/Section/Section';
 import { Profile } from './components/UserProfile/Profile';
 import { Statistics } from './components/Statistic/Statistic';
-import { FriendList } from "./components/FriendList/FriendList";
+import { FriendListItem } from "./components/FriendListItem/FriendListItem";
 import { TransactionHistory } from "./components/Transactions/TransactionHistory";
 
 export const App = () => {
@@ -29,7 +29,7 @@ export const App = () => {
       </Section>
 
       <Section title={'Task - 3 Friends list'}>
-        <FriendList friends={friends} />
+        <FriendListItem friends={friends} />
       </Section>
 
       <Section title={'Task - 4 Transaction history'}>
